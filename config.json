@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "current": "natal-2026",
+  "editions": [
+    {
+      "id": "natal-2026",
+      "name": "Especial de Natal 2026",
+      "active": true,
+      "channel": "glzando",
+      "title": "GLzando - Live Premiada",
+      "texts": {
+        "n17": "&nbsp;Contagem regressiva para o sorteio&nbsp;⏳<!--EndFragment-->",
+        "n31": "🎄 21 de dezembro • 18h00&nbsp;🎄<!--EndFragment-->",
+        "n55": "🏆 Ranking de GLpontos"
+      },
+      "hidden": [],
+      "showComingSoon": true,
+      "orders": {},
+      "event": {
+        "date": "2026-12-21",
+        "time": "18:00",
+        "timezone": "America/Sao_Paulo",
+        "visible": true
+      },
+      "ticket": {
+        "cost": 500,
+        "max": 10
+      },
+      "styles": {
+        "n10": {
+          "border": "0px none #eebbdc",
+          "width": "950px",
+          "maxWidth": "none",
+          "height": "",
+          "marginTop": "0px",
+          "paddingTop": "37px",
+          "paddingBottom": "0px",
+          "gap": "",
+          "justifyContent": "center"
+        },
+        "n19": {
+          "width": "auto",
+          "height": "60px"
+        },
+        "n16": {
+          "width": "auto",
+          "height": "137.188px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "rowGap": "137.188px",
+          "columnGap": "137.188px"
+        },
+        "n20": {
+          "width": "157px",
+          "maxWidth": "100%",
+          "height": "27px",
+          "minHeight": "0px",
+          "marginTop": "-11px",
+          "marginBottom": "0px"
+        },
+        "n21": {
+          "height": "0px",
+          "minHeight": "0px"
+        },
+        "n28": {
+          "width": "auto",
+          "height": "60px"
+        },
+        "n22": {
+          "width": "auto",
+          "height": "60px"
+        },
+        "n23": {
+          "width": "157px",
+          "maxWidth": "100%",
+          "height": "27px",
+          "minHeight": "0px",
+          "marginTop": "-11px",
+          "marginBottom": "0px"
+        },
+        "n24": {
+          "height": "0px",
+          "minHeight": "0px"
+        },
+        "n25": {
+          "width": "auto",
+          "height": "60px"
+        },
+        "n26": {
+          "width": "157px",
+          "maxWidth": "100%",
+          "height": "27px",
+          "minHeight": "0px",
+          "marginTop": "-11px",
+          "marginBottom": "0px"
+        },
+        "n27": {
+          "height": "0px",
+          "minHeight": "0px"
+        },
+        "n29": {
+          "width": "157px",
+          "maxWidth": "100%",
+          "height": "27px",
+          "minHeight": "0px",
+          "marginTop": "-11px",
+          "marginBottom": "0px"
+        },
+        "n30": {
+          "height": "0px",
+          "minHeight": "0px"
+        },
+        "n31": {
+          "textAlign": "right",
+          "paddingBottom": "0px"
+        },
+        "n53": {
+          "marginTop": "-44px",
+          "marginBottom": "12px"
+        }
+      },
+      "theme": {},
+      "fonts": [],
+      "images": {
+        "banner": {
+          "src": "assets/uploads/a50ce925a51b66697c9991ba.png",
+          "visible": true,
+          "width": "auto",
+          "height": "Auto",
+          "fit": "contain",
+          "align": "center",
+          "gapBefore": 8
+        },
+        "decor": {
+          "src": "assets/uploads/d9255007e9892e9a50adf1c4.png",
+          "visible": true,
+          "width": "665px",
+          "height": "723px",
+          "fit": "contain",
+          "left": "132px",
+          "top": "0px",
+          "opacity": 1,
+          "reserveSpace": false
+        }
+      },
+      "prizes": [
+        {
+          "id": "premio-1",
+          "name": "Novel GAP",
+          "description": "",
+          "image": "assets/uploads/7d722b551deccae66b1d582d.png",
+          "visible": true,
+          "style": {},
+          "imageSize": {
+            "width": "100%",
+            "height": "315px",
+            "fit": "contain"
+          }
+        },
+        {
+          "id": "premio-1792094210914",
+          "name": "Novel Inimigas com Benefícios",
+          "description": "",
+          "image": "assets/uploads/730a6a7277e0e7d4b78742da.png",
+          "visible": true,
+          "style": {},
+          "imageSize": {
+            "width": "100%",
+            "height": "315px",
+            "fit": "contain"
+          }
+        }
+      ],
+      "ranking": {
+        "enabled": true,
+        "channelId": "6a611bc21f3ec37ba610e990",
+        "minimum": 10,
+        "excluded": [],
+        "refreshMinutes": 15,
+        "mode": "live",
+        "leaderboard": "https://streamelements.com/glzando/leaderboard"
+      },
+      "social": {
+        "twitch": {
+          "url": "https://www.twitch.tv/glzando",
+          "visible": true
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/glzando/",
+          "visible": true
+        },
+        "tiktok": {
+          "url": "https://www.tiktok.com/@glzando_br",
+          "visible": true
+        },
+        "x": {
+          "url": "https://x.com/Glzando_br",
+          "visible": true
+        }
+      },
+      "mobileHeader": {
+        "styles": {
+          "n13": {
+            "marginTop": "-16px"
+          }
+        },
+        "decor": {
+          "src": "assets/uploads/d9255007e9892e9a50adf1c4.png",
+          "visible": true,
+          "width": "300px",
+          "height": "475px",
+          "left": "22px"
+        }
+      }
+    }
+  ]
+}

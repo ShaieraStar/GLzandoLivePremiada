@@ -1,0 +1,80 @@
+/* The approved CSS stays intact in approved.css. Only functional additions here. */
+/* Keep the approved palette even when the browser forces automatic dark mode. */
+:root{color-scheme:only light;--glz-background:#FFE8EC;--glz-surface:#FFF8FC;--glz-text:#30203A;--glz-heading:#60205E;--glz-magenta:#E500C9;--glz-border:#EEBBDC}
+html,body{background-color:var(--glz-background);color:var(--glz-text)}
+#glz-ref{background-color:var(--glz-background);color:var(--glz-text)}
+#glz-ref .viewport{background-color:var(--glz-background)}
+#glz-ref .panel{background-color:var(--glz-surface)}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+#glz-ref{overflow:clip}
+#glz-ref .viewport{height:auto;min-height:0;overflow:visible}
+#glz-ref .nav{position:fixed;top:0;left:0;right:0;width:100%;max-width:none;z-index:20;flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;gap:clamp(3px,.7vw,6px);padding-inline:clamp(6px,1.2vw,12px);user-select:none;cursor:grab}
+#glz-ref .nav a{flex:0 0 auto;text-align:center;padding-inline:clamp(8px,1.2vw,12px);-webkit-user-drag:none}
+#glz-ref .nav a:first-child{margin-left:auto}
+#glz-ref .nav a:last-child{margin-right:auto}
+#glz-ref .nav.is-dragging,#glz-ref .nav.is-dragging *{cursor:grabbing!important}
+#glz-ref section,#glz-ref header{scroll-margin-top:calc(var(--nav-height,63px) + 12px)}
+#glz-ref .heading h1{overflow-wrap:anywhere}
+#glz-ref .decor-slot.has-image{border:0;background:none;display:block;height:auto;max-width:none;max-height:none;pointer-events:none}
+#glz-ref .decor-slot img{display:block;width:100%;height:100%;max-width:none;max-height:none;object-fit:contain}
+#glz-ref .banner.has-image{background:none;border:0;display:block;height:auto;min-height:0;max-width:none;max-height:none;overflow:visible}
+#glz-ref .banner.has-image[role=button]{cursor:zoom-in}
+#glz-ref .banner.has-image:before{display:none}
+#glz-ref .banner img{display:block;max-width:none;max-height:none;width:100%;height:100%;object-fit:contain}
+#glz-ref .prizes{--prize-card-fraction:.5;position:relative;display:flex;flex-wrap:nowrap;gap:11px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-color:#d47ac7 #fff0f7;scrollbar-width:auto;padding:5px 0 12px}
+#glz-ref .prizes{user-select:none}
+#glz-ref .prizes .prize .pic,#glz-ref .prizes{cursor:grab}
+#glz-ref .prizes.is-dragging{scroll-snap-type:none;scroll-behavior:auto}
+#glz-ref .prizes.is-dragging,#glz-ref .prizes.is-dragging *{cursor:grabbing!important}
+#glz-ref .prizes img{-webkit-user-drag:none}
+#glz-ref .prizes>.prize{flex:0 0 calc((100% - 11px)/2);scroll-snap-align:start;overflow-wrap:anywhere}
+#glz-ref .prize-navigation{display:flex;justify-content:flex-end;gap:8px;margin-top:8px}
+#glz-ref .prize-navigation button{min-width:44px;min-height:44px;border:1px solid #EEBBDC;border-radius:10px;background:#FFF8FC;color:#60205E;font:700 22px/1 system-ui;cursor:pointer}
+#glz-ref .prize-navigation button:hover{background:#ffe0f2}
+#glz-ref .prize-navigation button:disabled{opacity:.4;cursor:default}
+#glz-ref .prize .pic img{width:100%;height:100%;object-fit:contain;display:block;border-radius:9px}
+#glz-ref .prize button.pic{width:100%;padding:0;cursor:zoom-in}
+#glz-ref .prize button.pic.has-image{display:block;height:auto;min-height:0;max-width:none;max-height:none;overflow:visible;flex-shrink:0}
+#glz-ref .prize .pic.has-image img{max-width:none;max-height:none}
+#glz-ref .prize{min-width:0}
+#glz-ref .prize .prize-description{font-weight:400;line-height:1.6}
+#glz-ref .rank-search{display:block;width:100%;font:inherit;font-size:12px;color:#30203a;padding:10px 12px;border:1px solid #eebbdc;border-radius:9px;background:#fff8fc;margin:0 0 14px}
+#glz-ref .rank-list{max-height:500px;overflow-y:auto;overscroll-behavior:contain;scrollbar-color:#d47ac7 #fff0f7;scrollbar-width:thin}
+#glz-ref .rank-row{font-size:12px;min-height:50px;padding-right:8px}
+#glz-ref .rank-line{display:flex;justify-content:space-between;gap:10px}
+#glz-ref .rank-line span:first-child{overflow-wrap:anywhere}
+#glz-ref .rank-line span:last-child{white-space:nowrap}
+#glz-ref .rank-note{margin-top:10px}
+#glz-ref .rank-link{color:#86128e;font-size:12px;display:inline-block;margin-top:8px}
+#glz-ref .social a:hover{background:#ffe0f2;transform:translateY(-2px)}
+#glz-ref .social [aria-disabled=true]{opacity:.6;cursor:default}
+#glz-ref .ended{padding:20px;text-align:center;background:#fff8fc;border:2px solid #f2b8e4;border-radius:13px;color:#60205e}
+#glz-ref .inactive{max-width:720px;margin:auto;padding:60px 24px;text-align:center;min-height:65vh}
+#glz-ref .inactive h1{font-size:28px;color:#60205e}
+.lightbox{position:fixed;inset:0;margin:0;box-sizing:border-box;width:100vw;height:100vh;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;padding:0;background:transparent;color:#60205E;overflow:hidden}
+.lightbox[open]{display:grid;place-items:center}
+.lightbox::backdrop{background:#30203a99}
+.lightbox-frame{position:relative;max-width:100%;max-height:100%;line-height:0}
+.lightbox img{display:block;width:100%;height:100%;min-width:0;min-height:0;object-fit:contain}
+.lightbox button{position:absolute;top:8px;right:8px;display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;border:1px solid #EEBBDC;border-radius:12px;background:#fff0f5f2;padding:8px 12px;color:#60205E;font:12px/1.4 system-ui;cursor:pointer;box-shadow:0 2px 12px #30203a26}
+.lightbox button>span:first-child{font-size:26px;line-height:1}
+html.photo-open{overflow:hidden}
+:focus-visible{outline:3px solid #86217f;outline-offset:3px}
+.editing [data-node]{cursor:pointer}
+.editing [data-node]:hover{outline:1px dashed #b60aaf;outline-offset:3px}
+.editing .selected{outline:2px solid #b60aaf!important;outline-offset:4px}
+.editing #glz-ref .decor-slot:not(.has-image){display:flex!important}
+@media(max-width:460px){#glz-ref .prize{min-width:0}#glz-ref .nav{scrollbar-width:none}#glz-ref .rank-list{max-height:500px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Overlay decoration is independent of the header height and stays behind its text. */
+#glz-ref .heading.decor-overlay{overflow:visible;z-index:0}
+
+/* Match the announcement photo area to the current prize photos. */
+#glz-ref .coming-prize>.pic{width:100%;height:var(--coming-photo-height,100px);display:grid;place-items:center;font-size:clamp(64px,7vw,88px);line-height:1}
+
+/* The mobile prize profile keeps the desktop card proportions in two columns. */
+#glz-ref.mobile-prizes .prizes{--prize-card-fraction:.5}
+#glz-ref.mobile-prizes .prizes>.prize{flex-basis:calc((100% - 11px)/2)}
+#glz-ref.mobile-prizes .coming-prize>.pic{font-size:clamp(32px,8vw,48px)}
