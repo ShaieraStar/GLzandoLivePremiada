@@ -14,7 +14,7 @@
         "n55": "🏆 Ranking de GLpontos"
       },
       "hidden": [],
-      "showComingSoon": true,
+      "showComingSoon": false,
       "orders": {},
       "event": {
         "date": "2026-12-21",
@@ -146,9 +146,9 @@
       "prizes": [
         {
           "id": "premio-1",
-          "name": "Novel GAP",
-          "description": "",
-          "image": "assets/uploads/7d722b551deccae66b1d582d.png",
+          "name": "1º Prêmio",
+          "description": "Novel impresso GAP + marca-páginas GAP",
+          "image": "assets/uploads/b6ad6231bd5a256e7ffe500a.png",
           "visible": true,
           "style": {},
           "imageSize": {
@@ -159,9 +159,48 @@
         },
         {
           "id": "premio-1792094210914",
-          "name": "Novel Inimigas com Benefícios",
-          "description": "",
-          "image": "assets/uploads/730a6a7277e0e7d4b78742da.png",
+          "name": "2º Prêmio",
+          "description": "Novel impresso Inimigas com Benefícios + marca-páginas EWB",
+          "image": "assets/uploads/10b0fb8e413dfb00d1249cdc.png",
+          "visible": true,
+          "style": {},
+          "imageSize": {
+            "width": "100%",
+            "height": "315px",
+            "fit": "contain"
+          }
+        },
+        {
+          "id": "premio-1792687764411",
+          "name": "3º Prêmio",
+          "description": "Kit 36 ITENS BOX GL FANMADE- Freenbechy/ LMSY/ Englot",
+          "image": "assets/uploads/f0a0ce4a74e43a25060db8d6.png",
+          "visible": true,
+          "style": {},
+          "imageSize": {
+            "width": "100%",
+            "height": "315px",
+            "fit": "contain"
+          }
+        },
+        {
+          "id": "premio-1792687799682",
+          "name": "4º Prêmio",
+          "description": "UNO personalidado GLs + 2 bottons (MilkLove + Juliet2)",
+          "image": "assets/uploads/eba328d770eb085ac24377ab.png",
+          "visible": true,
+          "style": {},
+          "imageSize": {
+            "width": "100%",
+            "height": "315px",
+            "fit": "contain"
+          }
+        },
+        {
+          "id": "premio-1792687809708",
+          "name": "5º Prêmio",
+          "description": "Álbum figurinha Pluto +  Álbum figurinha EWB + 2 bottons (Pluto + EWB)",
+          "image": "assets/uploads/246f34e0da4aeb141a30d171.png",
           "visible": true,
           "style": {},
           "imageSize": {
